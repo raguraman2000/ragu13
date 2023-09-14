@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height:100vh;
+    width:100%;
+    background-image: url('https://godwallpaper.in/downloading.aspx?pcod=WP0001845');
+    background-repeat: no-repeat;
+}
+nav{
+    width: 100%;
+    background-color:rgba(0, 0, 0,0.9);
+    height:14vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    word-spacing: 50px;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.logo{
+    margin-left: 30px;
+    margin-top: 3px;
+}
+ nav .menu a:first-child
+{
+    color: #00b894;
+}
+h3{
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    color: #fff;
+}
+h1{
+    margin: 30px 20px;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+p{
+    font-size: 30px;
+    font-weight: bold;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+section{
+    margin-top: 80px;
+    text-align: center;
+}
+section a{
+    padding: 12px 30px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    background-color:white;
+}
+section .btn1{
+    background-color: white;
+    color: black; 
+    border-radius: 5px;
+    margin-left: 50px; 
+}
+section .btn1:hover{
+    background-color: #00b894; 
+    color: white;
+}
+section .btn2{
+    background-color: #00b894; 
+    color: white;
+    border-radius: 5px;
+}
+section .btn2:hover{
+    background-color: white;
+    color: black;   
+}
+.content-change::after
+{
+    content:"";
+    animation:changetext 10s infinite linear;
+    color: #00b894;
+}
+@keyframes changetext
+{
+    0%{
+        content:"Delhi";
+    }
+    10%{
+        content: "Tamilnadu";
+    }
+    20%{
+        content:"Karnataka";
+    }
+    30%{
+        content: "Manipur";
+    }
+    40%{
+        content:"Kerala";
+    }
+    50%{
+        content: "Rajasthan";
+    }
+    60%{
+        content:"Punjab";
+    }
+    70%{
+        content: "Gujarat";
+    }
+    80%{
+        content:"Sikkim";
+    }
+    90%{
+        content: "Haryana";
+    }
+    100%{
+        content: "Goa";
+    }
+}
